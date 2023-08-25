@@ -1,0 +1,104 @@
+.union-child {
+  top: 52.52px;
+  left: 0;
+}
+.ellipse-div,
+.union-child,
+.union-inner,
+.union-item {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 92.65px;
+  height: 92.65px;
+}
+.union-item {
+  top: 55.68px;
+  left: 314px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.ellipse-div,
+.union-inner {
+  top: 32.87px;
+  left: 44px;
+}
+.ellipse-div {
+  top: 33.76px;
+  left: 269.73px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.ellipse-icon,
+.union-child1 {
+  position: absolute;
+  border-radius: 50%;
+  height: 138.28px;
+}
+.union-child1 {
+  top: 6.6px;
+  left: 92.4px;
+  background-color: var(--color-gainsboro);
+  width: 138.28px;
+}
+.ellipse-icon {
+  top: 33.16px;
+  left: 38.72px;
+  width: 228.16px;
+  object-fit: cover;
+}
+.union {
+  position: relative;
+  width: 314px;
+  height: 164.84px;
+  background-image: url(/public/union@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.button,
+.just-look-for {
+  position: absolute;
+  left: 97px;
+}
+.just-look-for {
+  top: 67px;
+  font-weight: 500;
+  display: inline-block;
+  width: 95px;
+}
+.button {
+  top: 130.6px;
+  cursor: pointer;
+}
+.frame-icon,
+.group-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.group-icon {
+  height: 49.78%;
+  width: 18.26%;
+  top: 33.25%;
+  right: 72.19%;
+  bottom: 16.97%;
+  left: 9.55%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.frame-icon {
+  top: 56px;
+  left: 201px;
+  width: 20px;
+  height: 65px;
+}
+.step-4 {
+  position: relative;
+  width: 100%;
+  height: 171.44px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-3-size);
+  color: var(--color-darkslategray);
+  font-family: var(--heading-3);
+}
